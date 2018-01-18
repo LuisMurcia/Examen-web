@@ -1,0 +1,34 @@
+body,html{
+    height:100%;
+    padding:0px;
+    margin:0px;
+}
+#fondo{
+    display: fixed;
+    height:100%;
+    width:100%;
+    position:fixed;
+    z-index: -3;
+}
+#fondo img{
+    height: 100%;
+    width: 100%;
+}
+#logo{
+    width: auto;height: auto;
+    margin: 0 auto;
+    padding: 10px;
+}
+#logo img{
+    height: 20%;
+    width: 20%;
+}
+#opciones{
+    width: auto;height: auto;
+}
+#menu{
+    
+}
+#menu1,#menu2,#menu3{
+    list-style: none;
+}
