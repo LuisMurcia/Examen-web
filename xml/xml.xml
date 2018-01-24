@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<questions>
+ <question id='profe001'>
+  <type>text</type>
+  <title>Extensió d'un fitxer full d'estill</title>
+  <answer>css</answer>
+ </question>
+ <question id='profe002'>
+  <type>text</type>
+  <title>Quin és nom de l'element arrel d'un document html?</title>
+  <answer>html</answer>
+ </question>
+ <question id='profe003'>
+  <type>select</type>
+  <title>Un lleó mort de fam, qué menja?</title>
+  <option>Carn</option>
+  <option>Peix</option> 
+  <option>Res, està mort</option>
+  <answer>2</answer> <!-- SelectedIndex = 0, 1 ó 2 , 2 vol dir la tercera opciói -->
+ </question>
+ <question id='profe004'>
+  <type>multiple</type>
+  <title>Marca els nombres senars?</title>
+  <option>1</option>
+  <option>2</option> 
+  <option>3</option> 
+  <option>4</option>
+  <answer>1</answer>
+  <answer>3</answer>
+ </question>
+</questions>

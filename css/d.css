@@ -44,6 +44,12 @@ body,html{
     font-family: sans-serif;
 }
 #menu1:hover,#menu2:hover,#menu3:hover{
-    background-color: #1a66ff;
-       
+    background-color: #1a66ff;  
+}
+#introduccion{
+    width: 637px;
+    height: auto;
+    margin-left: 30px;
+    line-height: 28px;
+    font-family: sans-serif;
 }
