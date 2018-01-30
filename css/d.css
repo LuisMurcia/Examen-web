@@ -3,16 +3,11 @@ body,html{
     padding:0px;
     margin:0px;
 }
-#fondo{
-    display: fixed;
-    height:100%;
-    width:100%;
-    position:fixed;
-    z-index: -3;
-}
-#fondo img{
-    height: 100%;
-    width: 100%;
+body{
+    background: url(../img/fondo.jpg) no-repeat 100% 0 fixed;
+    background-position: 60% 20%;
+    background-size: cover;
+    position: relative;
 }
 #logo{
     width: auto;height: auto;
@@ -32,7 +27,6 @@ body,html{
 }
 #menu1,#menu2,#menu3{
     display: inline-block;
-    list-style: none;
     border-style: outset;
     border-color: #4d88ff;
     background-color: #9999ff;
@@ -43,13 +37,33 @@ body,html{
     line-height: 40px;
     font-family: sans-serif;
 }
+a{
+    color: black;
+    text-decoration: none;
+}
+a:hover{
+    color: white;
+}
 #menu1:hover,#menu2:hover,#menu3:hover{
-    background-color: #1a66ff;  
+    background-color: #1a66ff; 
 }
 #introduccion{
     width: 637px;
     height: auto;
     margin-left: 30px;
     line-height: 28px;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: black;
+}
+#preguntas{
+    padding: 20px;
+}
+#corregir{
+    border-style: outset;
+    border-color: #4d88ff;
+    background-color: #9999ff;
+    text-align: center;
+    line-height: 40px;
     font-family: sans-serif;
 }

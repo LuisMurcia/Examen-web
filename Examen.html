@@ -10,86 +10,97 @@
         <meta charset="UTF-8">
     </head>
 
-    <div class="a">
+    <body>
+        <div id="logo">
+            <img src="img/logo.png" alt="img logo">
+        </div>
+        <div id ="opciones">
+            <ul id="menu">
+                <li id="menu1"><h2><a title= "Información" href="Página examen.html">Información</a></h2></li>
+                <li id="menu2"><h2><a title= "Examen" href="Examen.html">Examen</a></h2></li>
+                <li id="menu3"><h2><a title= "Ubicación" href="Ubicación.html">Ubicación</a></h2></li>
+            </ul>
+        </div>
+        <div id='preguntas'>
+            <form id="formulario">
+                <h1>Examen de acceso</h1>
+                <br>
 
-    </div>
-    <div id='preguntas'>
-        <h1>Test de prueba</h1>
-        <br>
-        <h3>1) Escribe la respuesta</h3>
-        <input type='text'>
-        <input type='button' value="Enviar">
-        <br>	
-        <h3>2) Escribe la respuesta</h3>
-        <input type='text'>
-        <input type='button' value="Enviar">
-        <br>	
-        <h3>3) Selecciona una opción</h3>
-        <select id="preg3">
-            <option value="1" selected>opcion 1</option>
-            <option value="2">opcion 2</option>
-            <option value="3">opcion 3</option>
-        </select>
-        <input type='button' value="Enviar"> 
-        <br>
-        <h3>4) Selecciona una opción</h3>
-        <select id="preg4">
-            <option value="1" selected>opcion 1</option>
-            <option value="2">opcion 2</option>
-            <option value="3">opcion 3</option>
-        </select>
-        <input type='button' value="Enviar"> 
-        <br>
-        <h3>5) Selecciona una o varias respuestas</h3>
-        <select id="preg5" multiple>
-            <option value="1" selected>opcion 1</option>
-            <option value="2">opcion 2</option>
-            <option value="3">opcion 3</option>
-        </select>
-        <input type='button' value="Enviar"> 
-        <br>	
-        <h3>6) Selecciona una o varias respuestas</h3>
-        <select id="preg6" multiple>
-            <option value="1" selected>opcion 1</option>
-            <option value="2">opcion 2</option>
-            <option value="3">opcion 3</option>
-        </select>
-        <input type='button' value="Enviar"> 					
-        <br>	
-        <h3>7) Selecciona una o varias respuestas</h3>
-        <input type="checkbox" id="r" value="red">
-        <label for="r">Red</label><br/>
-        <input type="checkbox" id="g" value="green">
-        <label for="g">Green</label><br/>
-        <input type="checkbox" id="b" value="blue">
-        <label for="b">Blue</label><br/>
-        <p><input type="button" value=" Enviar "></p>
-        <br>	
-        <h3>8) Selecciona una o varias respuestas</h3>
-        <input type="checkbox" id="a1" value="red">
-        <label for="a1">Red</label><br/>
-        <input type="checkbox" id="b1" value="green">
-        <label for="b1">Green</label><br/>
-        <input type="checkbox" id="c1" value="blue">
-        <label for="c1">Blue</label><br/>
-        <p><input type="button" value=" Enviar "></p>
-        <br>
-        <h3>9) Selecciona la respuesta correcta</h3>
-        <input id="red" type="radio" name="color" value="red">
-        <label for="red">Red</label><br>
-        <input id="green" type="radio" name="color" value="green">
-        <label for="green">Green</label><br> 
-        <input id="blue" type="radio" name="color" value="blue">
-        <label for="blue">Blue</label><br><br>
-        <input type="button" value="Enviar">
-        <br>
-        <h3>10) Selecciona la respuesta correcta</h3>
-        <input id="red1" type="radio" name="color" value="red1">
-        <label for="red1">Red</label><br>
-        <input id="green1" type="radio" name="color" value="green1">
-        <label for="green1">Green</label><br> 
-        <input id="blue1" type="radio" name="color" value="blue1">
-        <label for="blue1">Blue</label><br><br>
-        <input type="button" value="Enviar">
-        <br>
-    </div>
+                <h3>1.- Escriba la respuesta.</h3>
+                <input type='text'>
+                <br>
+
+                <h3>2.- Escriba la respuesta.</h3>
+                <input type='text'>
+                <br>
+
+                <h3>3.- Seleccione una opción.</h3>
+                <select id="preg3">
+                    <option value="1" selected>opcion 1</option>
+                    <option value="2">opcion 2</option>
+                    <option value="3">opcion 3</option>
+                </select> 
+                <br>
+
+                <h3>4.- Seleccione una opción.</h3>
+                <select id="preg4">
+                    <option value="1" selected>opcion 1</option>
+                    <option value="2">opcion 2</option>
+                    <option value="3">opcion 3</option>
+                </select>
+                <br>
+
+                <h3>5.- Seleccione una o varias respuestas.</h3>
+                <select id="preg5" multiple>
+                    <option value="1" selected>opcion 1</option>
+                    <option value="2">opcion 2</option>
+                    <option value="3">opcion 3</option>
+                </select>
+                <br>
+
+                <h3>6.- Seleccione una o varias respuestas.</h3>
+                <select id="preg6" multiple>
+                    <option value="1" selected>opcion 1</option>
+                    <option value="2">opcion 2</option>
+                    <option value="3">opcion 3</option>
+                </select>					
+                <br>
+
+                <h3>7.- Seleccione una o varias respuestas.</h3>
+                <input type="checkbox" id="r" value="red">
+                <label for="r">Red</label><br>
+                <input type="checkbox" id="g" value="green">
+                <label for="g">Green</label><br>
+                <input type="checkbox" id="b" value="blue">
+                <label for="b">Blue</label><br>
+
+                <h3>8.- Seleccione una o varias respuestas.</h3>
+                <input type="checkbox" id="a1" value="red">
+                <label for="a1">Red</label><br>
+                <input type="checkbox" id="b1" value="green">
+                <label for="b1">Green</label><br>
+                <input type="checkbox" id="c1" value="blue">
+                <label for="c1">Blue</label><br>
+
+                <h3>9.- Seleccione la respuesta correcta.</h3>
+                <input id="red" type="radio" name="color" value="red">
+                <label for="red">Red</label><br>
+                <input id="green" type="radio" name="color" value="green">
+                <label for="green">Green</label><br> 
+                <input id="blue" type="radio" name="color" value="blue">
+                <label for="blue">Blue</label><br>
+
+                <h3>10.- Seleccione la respuesta correcta.</h3>
+                <input id="red1" type="radio" name="color" value="red1">
+                <label for="red1">Red</label><br>
+                <input id="green1" type="radio" name="color" value="green1">
+                <label for="green1">Green</label><br> 
+                <input id="blue1" type="radio" name="color" value="blue1">
+                <label for="blue1">Blue</label><br>
+                <br>
+            </form>
+        </div>
+        <div id="corregir">
+            <h2>Corregir</h2>
+        </div>
+    </body>
