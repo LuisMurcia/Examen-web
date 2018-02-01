@@ -2,58 +2,58 @@
 <questions>
     <question>
         <type>text</type>
-        <title>Extensió d'un fitxer full d'estill</title>
-        <answer>css</answer>
+        <title>La fuerza física que la tierra ejerce sobre los cuerpos hacia su centro se conoce como:</title>
+        <answer>Gravedad</answer>
     </question>
     <question>
         <type>text</type>
-        <title>Quin és nom de l'element arrel d'un document html?</title>
-        <answer>html</answer>
+        <title>El proceso mediante el cual se generan moléculas orgánicas a partir de sustancias inorgánicas usando como fuente de energía el sol es:</title>
+        <answer>La fotosíntesis</answer>
     </question>
     <question>
         <type>select</type>
-        <title>Un lleó mort de fam, qué menja?</title>
-        <option>Carn</option>
-        <option>Peix</option> 
-        <option>Res, està mort</option>
+        <title>La velocidad a la que viaja la luz en el vacío es de</title>
+        <option>30 000 km/h</option>
+        <option>300 000 m/s</option> 
+        <option>300 000 km/s</option>
         <answer>2</answer>
     </question>
     <question>
         <type>select</type>
-        <title></title>
-        <option></option>
-        <option></option>
-        <option></option>
-        <answer></answer>
+        <title>El proceso por el que una célula se divide para formar dos células hijas se llama:</title>
+        <option>Segregación</option>
+        <option>Mitosis</option>
+        <option>Meiosis</option>
+        <answer>1</answer>
     </question>
     <question>
         <type>multiple</type>
-        <title>Marca els nombres senars?</title>
-        <option>1</option>
-        <option>2</option> 
-        <option>3</option> 
-        <option>4</option>
-        <answer>1</answer>
-        <answer>3</answer>
+        <title>Un miligramo de agua son:</title>
+        <option>0,001 gramos</option>
+        <option>0,001 litros</option> 
+        <option>100 miligramos de oxígeno</option> 
+        <option>1000 microgramos</option>
+        <answer>0</answer>
+        <answer>4</answer>
     </question>
     <question>
         <type>multiple</type>
-        <title>Marca els nombres senars?</title>
-        <option>1</option>
-        <option>2</option> 
-        <option>3</option> 
-        <option>4</option>
+        <title>¿Cúal de los siguientes seres vivos es un mamífero?</title>
+        <option>Salamandra</option>
+        <option>Humano</option> 
+        <option>Ballena</option> 
+        <option>Tiburón</option>
         <answer>1</answer>
-        <answer>3</answer>
+        <answer>2</answer>
     </question>
     <question>
         <type>checkbox</type>
-        <title></title>
-        <option></option>
-        <option></option>
-        <option></option>
-        <answer></answer>
-        <answer></answer>
+        <title>Seleccione las capas que pertenezcan a la Atmósfera.</title>
+        <option>Litosfera</option>
+        <option>Exosfera</option>
+        <option>Troposfera</option>
+        <answer>1</answer>
+        <answer>2</answer>
     </question>
     <question>
         <type>checkbox</type>
@@ -66,10 +66,10 @@
     </question>
     <question>
         <type>radio</type>
-        <title></title>
-        <option></option>
-        <option></option>
-        <option></option>
+        <title>¿Cúal es el resultado de la siguiente operación matemática √-1?</title>
+        <option>+/- 1</option>
+        <option>0</option>
+        <option>Unidad imaginaria, denotada como "i"</option>
         <answer></answer>
     </question>
     <question>
