@@ -6,6 +6,16 @@ window.onload = function () {
             gestionarXml(this);
         }
     };
-    xhttp.open("GET", "https://rawgit.com/LuisMurcia/Examen-web/master//xml/xml.xml", true); //cambiar en github
+    xhttp.open("GET", "https://rawgit.com/LuisMurcia/Examen-web/master/xml/xml.xml", true); //cambiar en github
     xhttp.send();
+}
+
+function gestionXml(ficheroXml){
+    var documentoXml = ficheroXml.responseXML;
+    
+    //Bucle para poner los títulos
+    for (i=0; i<10; i++){
+        var title = documentoXml.getElementsByTagName("title")[i].innerHTML;
+        
+    }
 }
