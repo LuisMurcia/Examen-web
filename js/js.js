@@ -1,9 +1,9 @@
 window.onload = function () {
-    var url = "https://rawgit.com/LuisMurcia/";
+    var url = "https://rawgit.com/LuisMurcia/Examen-web/master/json/json.json";
     var xhttp = new XMLHttpRequest();
     xhttp.onreadystatechange = function () {
         if (this.readyState == 4 && this.status == 200) {
-            gestionarJson(this.responseText);
+            gestionJson(this.responseText);
         }
     };
     xhttp.open("GET", url, true); //cambiar en github

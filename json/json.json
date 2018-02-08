@@ -1,18 +1,18 @@
-{
+ï»¿{
     "question": [
       {
         "type": "text",
-        "title": "La fuerza física que la tierra ejerce sobre los cuerpos hacia su centro se conoce como:",
+        "title": "1. - La fuerza fÃ­sica que la tierra ejerce sobre los cuerpos hacia su centro se conoce como:",
         "answer": "Gravedad"
       },
       {
         "type": "text",
-        "title": "El proceso mediante el cual se generan moléculas orgánicas a partir de sustancias inorgánicas usando como fuente de energía el sol es:",
-        "answer": "La fotosíntesis"
+        "title": "2. - El proceso mediante el cual se generan molÃ©culas orgÃ¡nicas a partir de sustancias inorgÃ¡nicas usando como fuente de energÃ­a el sol es:",
+        "answer": "La fotosÃ­ntesis"
       },
       {
         "type": "select",
-        "title": "La velocidad a la que viaja la luz en el vacío es de",
+        "title": "3. - La velocidad a la que viaja la luz en el vacÃ­o es de",
         "option": [
           "30 000 km/h",
           "300 000 m/s",
@@ -22,9 +22,9 @@
       },
       {
         "type": "select",
-        "title": "El proceso por el que una célula se divide para formar dos células hijas se llama:",
+        "title": "4. - El proceso por el que una cÃ©lula se divide para formar dos cÃ©lulas hijas se llama:",
         "option": [
-          "Segregación",
+          "SegregaciÃ³n",
           "Mitosis",
           "Meiosis"
         ],
@@ -32,11 +32,11 @@
       },
       {
         "type": "multiple",
-        "title": "Un miligramo de agua son:",
+        "title": "5. - Un miligramo de agua son:",
         "option": [
           "0,001 gramos",
           "0,001 litros",
-          "100 miligramos de oxígeno",
+          "100 miligramos de oxÃ­geno",
           "1000 microgramos"
         ],
         "answer": [
@@ -46,12 +46,12 @@
       },
       {
         "type": "multiple",
-        "title": "¿Cúal de los siguientes seres vivos es un mamífero?",
+        "title": "6. - Â¿CÃºal de los siguientes seres vivos es un mamÃ­fero?",
         "option": [
           "Salamandra",
           "Humano",
           "Ballena",
-          "Tiburón"
+          "TiburÃ³n"
         ],
         "answer": [
           "1",
@@ -60,7 +60,7 @@
       },
       {
         "type": "checkbox",
-        "title": "Seleccione las capas que pertenezcan a la Atmósfera.",
+        "title": "7. - Seleccione las capas que pertenezcan a la AtmÃ³sfera.",
         "option": [
           "Litosfera",
           "Exosfera",
@@ -73,10 +73,10 @@
       },
       {
         "type": "checkbox",
-        "title": "¿Cúales de las siguientes partes del cuerpo son huesos?",
+        "title": "8. - Â¿CÃºales de las siguientes partes del cuerpo son huesos?",
         "option": [
           "Esternocleidomastoideo",
-          "Fémur",
+          "FÃ©mur",
           "Radio",
           "Trapecio"
         ],
@@ -87,7 +87,7 @@
       },
       {
         "type": "radio",
-        "title": "¿Cúal es el resultado de la raíz cuadrada de -1?",
+        "title": "9. - Â¿CÃºal es el resultado de la raÃ­z cuadrada de -1?",
         "option": [
           "+/- 1",
           "0",
@@ -97,7 +97,7 @@
       },
       {
         "type": "radio",
-        "title": "¿En qué año se descubrió América?",
+        "title": "10. - Â¿En quÃ© aÃ±o se descubriÃ³ AmÃ©rica?",
         "option": [
           "1812",
           "1789",

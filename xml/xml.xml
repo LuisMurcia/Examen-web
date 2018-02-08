@@ -2,17 +2,17 @@
 <questions>
     <question>
         <type>text</type>
-        <title>La fuerza física que la tierra ejerce sobre los cuerpos hacia su centro se conoce como:</title>
+        <title>1. - La fuerza física que la tierra ejerce sobre los cuerpos hacia su centro se conoce como:</title>
         <answer>Gravedad</answer>
     </question>
     <question>
         <type>text</type>
-        <title>El proceso mediante el cual se generan moléculas orgánicas a partir de sustancias inorgánicas usando como fuente de energía el sol es:</title>
+        <title>2. - El proceso mediante el cual se generan moléculas orgánicas a partir de sustancias inorgánicas usando como fuente de energía el sol es:</title>
         <answer>La fotosíntesis</answer>
     </question>
     <question>
         <type>select</type>
-        <title>La velocidad a la que viaja la luz en el vacío es de</title>
+        <title>3. - La velocidad a la que viaja la luz en el vacío es de</title>
         <option>30 000 km/h</option>
         <option>300 000 m/s</option> 
         <option>300 000 km/s</option>
@@ -20,7 +20,7 @@
     </question>
     <question>
         <type>select</type>
-        <title>El proceso por el que una célula se divide para formar dos células hijas se llama:</title>
+        <title>4. - El proceso por el que una célula se divide para formar dos células hijas se llama:</title>
         <option>Segregación</option>
         <option>Mitosis</option>
         <option>Meiosis</option>
@@ -28,7 +28,7 @@
     </question>
     <question>
         <type>multiple</type>
-        <title>Un miligramo de agua son:</title>
+        <title>5. - Un miligramo de agua son:</title>
         <option>0,001 gramos</option>
         <option>0,001 litros</option> 
         <option>100 miligramos de oxígeno</option> 
@@ -38,7 +38,7 @@
     </question>
     <question>
         <type>multiple</type>
-        <title>¿Cúal de los siguientes seres vivos es un mamífero?</title>
+        <title>6. - ¿Cúal de los siguientes seres vivos es un mamífero?</title>
         <option>Salamandra</option>
         <option>Humano</option> 
         <option>Ballena</option> 
@@ -48,7 +48,7 @@
     </question>
     <question>
         <type>checkbox</type>
-        <title>Seleccione las capas que pertenezcan a la Atmósfera.</title>
+        <title>7. - Seleccione las capas que pertenezcan a la Atmósfera.</title>
         <option>Litosfera</option>
         <option>Exosfera</option>
         <option>Troposfera</option>
@@ -57,7 +57,7 @@
     </question>
     <question>
         <type>checkbox</type>
-        <title>¿Cúales de las siguientes partes del cuerpo son huesos?</title>
+        <title>8. - ¿Cúales de las siguientes partes del cuerpo son huesos?</title>
         <option>Esternocleidomastoideo</option>
         <option>Fémur</option>
         <option>Radio</option>
@@ -67,7 +67,7 @@
     </question>
     <question>
         <type>radio</type>
-        <title>¿Cúal es el resultado de la raíz cuadrada de -1?</title>
+        <title>9. - ¿Cúal es el resultado de la raíz cuadrada de -1?</title>
         <option>+/- 1</option>
         <option>0</option>
         <option>Unidad imaginaria, denotada como "i"</option>
@@ -75,7 +75,7 @@
     </question>
     <question>
         <type>radio</type>
-        <title>¿En qué año se descubrió América?</title>
+        <title>10. - ¿En qué año se descubrió América?</title>
         <option>1812</option>
         <option>1789</option>
         <option>1492</option>
