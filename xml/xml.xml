@@ -57,27 +57,28 @@
     </question>
     <question>
         <type>checkbox</type>
-        <title></title>
-        <option></option>
-        <option></option>
-        <option></option>
-        <answer></answer>
-        <answer></answer>
+        <title>¿Cúales de las siguientes partes del cuerpo son huesos?</title>
+        <option>Esternocleidomastoideo</option>
+        <option>Fémur</option>
+        <option>Radio</option>
+        <option>Trapecio</option>
+        <answer>1</answer>
+        <answer>2</answer>
     </question>
     <question>
         <type>radio</type>
-        <title>¿Cúal es el resultado de la siguiente operación matemática √-1?</title>
+        <title>¿Cúal es el resultado de la raíz cuadrada de -1?</title>
         <option>+/- 1</option>
         <option>0</option>
         <option>Unidad imaginaria, denotada como "i"</option>
-        <answer></answer>
+        <answer>2</answer>
     </question>
     <question>
         <type>radio</type>
-        <title></title>
-        <option></option>
-        <option></option>
-        <option></option>
-        <answer></answer>
+        <title>¿En qué año se descubrió América?</title>
+        <option>1812</option>
+        <option>1789</option>
+        <option>1492</option>
+        <answer>2</answer>
     </question>
 </questions>

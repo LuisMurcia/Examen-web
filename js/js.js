@@ -1,21 +1,23 @@
 window.onload = function () {
-    //Leer XML >> xml/formulario.xml
+    var url = "https://rawgit.com/LuisMurcia/";
     var xhttp = new XMLHttpRequest();
     xhttp.onreadystatechange = function () {
         if (this.readyState == 4 && this.status == 200) {
-            gestionarXml(this);
+            gestionarJson(this.responseText);
         }
     };
-    xhttp.open("GET", "https://rawgit.com/LuisMurcia/Examen-web/master/xml/xml.xml", true); //cambiar en github
+    xhttp.open("GET", url, true); //cambiar en github
     xhttp.send();
 }
 
-function gestionXml(ficheroXml){
-    var documentoXml = ficheroXml.responseXML;
+function gestionJson(Json){
+    var textoJson = JSON.parse(Json);
     
-    //Bucle para poner los títulos
+    //Bucle para poner los títulos que tenemos en Json
     for (i=0; i<10; i++){
-        var title = documentoXml.getElementsByTagName("title")[i].innerHTML;
-        
+        document.getElementsByTagName("h3")[i].innerHTML = textoJson.question[i].title;  
     }
+    
+    //Select
+    
 }
