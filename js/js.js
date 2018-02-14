@@ -11,7 +11,7 @@ window.onload = function () {
 }
 
 function gestionJson(Json){
-    var textoJson = JSON.parse(Json);
+    var preguntas = JSON.parse(Json);
     
     //Bucle para poner los títulos que tenemos en Json
     for (i=0; i<10; i++){
@@ -19,5 +19,8 @@ function gestionJson(Json){
     }
     
     //Select
-    
+    for (i=2; i<4; i++){
+        var respuestas = preguntas.question[i].option.length;
+        
+    }
 }
