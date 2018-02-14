@@ -21,6 +21,12 @@ function gestionJson(Json){
     //Select
     for (i=2; i<4; i++){
         var respuestas = preguntas.question[i].option.length;
-        
+        var select = document.getElementsByTagName("select")[i - 2];
+        for(j = 0; j < respuestas; j++){
+            var respuesta = document.createElement("option");
+            respuesta.text = preguntas.question[i].option[j];
+            respuesta.value = j+1;
+            select.option.add(respuesta);
+        }
     }
 }
