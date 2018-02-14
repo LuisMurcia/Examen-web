@@ -1,3 +1,5 @@
+<?xml version='1.0' encoding='UTF-8' ?> 
+<!-- was: no XML declaration present -->
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <questions>
     <question>
@@ -38,7 +40,7 @@
     </question>
     <question>
         <type>multiple</type>
-        <title>6. - ¿Cúal de los siguientes seres vivos es un mamífero?</title>
+        <title>6. - ¿Cúales de los siguientes seres vivos son mamíferos?</title>
         <option>Salamandra</option>
         <option>Humano</option> 
         <option>Ballena</option> 
