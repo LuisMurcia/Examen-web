@@ -1,17 +1,19 @@
+ï»¿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE questions>
 <questions>
     <question>
         <type>text</type>
-        <title>1. - La fuerza física que la tierra ejerce sobre los cuerpos hacia su centro se conoce como:</title>
+        <title>1. - La fuerza fÃ­sica que la tierra ejerce sobre los cuerpos hacia su centro se conoce como:</title>
         <answer>Gravedad</answer>
     </question>
     <question>
         <type>text</type>
-        <title>2. - El proceso mediante el cual se generan moléculas orgánicas a partir de sustancias inorgánicas usando como fuente de energía el sol es:</title>
-        <answer>La fotosíntesis</answer>
+        <title>2. - El proceso mediante el cual se generan molÃ©culas orgÃ¡nicas a partir de sustancias inorgÃ¡nicas usando como fuente de energÃ­a el sol es:</title>
+        <answer>La fotosÃ­ntesis</answer>
     </question>
     <question>
         <type>select</type>
-        <title>3. - La velocidad a la que viaja la luz en el vacío es de</title>
+        <title>3. - La velocidad a la que viaja la luz en el vacÃ­o es de</title>
         <option>30 000 km/h</option>
         <option>300 000 m/s</option> 
         <option>300 000 km/s</option>
@@ -19,8 +21,8 @@
     </question>
     <question>
         <type>select</type>
-        <title>4. - El proceso por el que una célula se divide para formar dos células hijas se llama:</title>
-        <option>Segregación</option>
+        <title>4. - El proceso por el que una cÃ©lula se divide para formar dos cÃ©lulas hijas se llama:</title>
+        <option>SegregaciÃ³n</option>
         <option>Mitosis</option>
         <option>Meiosis</option>
         <answer>1</answer>
@@ -30,24 +32,24 @@
         <title>5. - Un miligramo de agua son:</title>
         <option>0,001 gramos</option>
         <option>0,001 litros</option> 
-        <option>100 miligramos de oxígeno</option> 
+        <option>100 miligramos de oxÃ­geno</option> 
         <option>1000 microgramos</option>
         <answer>0</answer>
         <answer>4</answer>
     </question>
     <question>
         <type>multiple</type>
-        <title>6. - ¿Cúales de los siguientes seres vivos son mamíferos?</title>
+        <title>6. - Â¿CÃºales de los siguientes seres vivos son mamÃ­feros?</title>
         <option>Salamandra</option>
         <option>Humano</option> 
         <option>Ballena</option> 
-        <option>Tiburón</option>
+        <option>TiburÃ³n</option>
         <answer>1</answer>
         <answer>2</answer>
     </question>
     <question>
         <type>checkbox</type>
-        <title>7. - Seleccione las capas que pertenezcan a la Atmósfera.</title>
+        <title>7. - Seleccione las capas que pertenezcan a la AtmÃ³sfera.</title>
         <option>Litosfera</option>
         <option>Exosfera</option>
         <option>Troposfera</option>
@@ -56,9 +58,9 @@
     </question>
     <question>
         <type>checkbox</type>
-        <title>8. - ¿Cúales de las siguientes partes del cuerpo son huesos?</title>
+        <title>8. - Â¿CÃºales de las siguientes partes del cuerpo son huesos?</title>
         <option>Esternocleidomastoideo</option>
-        <option>Fémur</option>
+        <option>FÃ©mur</option>
         <option>Radio</option>
         <option>Trapecio</option>
         <answer>1</answer>
@@ -66,7 +68,7 @@
     </question>
     <question>
         <type>radio</type>
-        <title>9. - ¿Cúal es el resultado de la raíz cuadrada de -1?</title>
+        <title>9. - Â¿CÃºal es el resultado de la raÃ­z cuadrada de -1?</title>
         <option>+/- 1</option>
         <option>0</option>
         <option>Unidad imaginaria, denotada como "i"</option>
@@ -74,7 +76,7 @@
     </question>
     <question>
         <type>radio</type>
-        <title>10. - ¿En qué año se descubrió América?</title>
+        <title>10. - Â¿En quÃ© aÃ±o se descubriÃ³ AmÃ©rica?</title>
         <option>1812</option>
         <option>1789</option>
         <option>1492</option>
