@@ -15,7 +15,7 @@ function gestionJson(Json) {
 
     //Bucle para poner los títulos que tenemos en Json
     for (i = 0; i < 10; i++) {
-        document.getElementsByTagName("h3")[i].innerHTML = textoJson.question[i].title;
+        document.getElementsByTagName("h3")[i].innerHTML = preguntas.question[i].title;
     }
 
     //Select
