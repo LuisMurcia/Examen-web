@@ -1,5 +1,5 @@
 window.onload = function () {
-    var url = "https://github.com/LuisMurcia/Examen-web/blob/master/json/json.json";
+    var url = "https://rawgit.com/LuisMurcia/Examen-web/master/json/json.json";
     var xhttp = new XMLHttpRequest();
     xhttp.onreadystatechange = function () {
         if (this.readyState == 4 && this.status == 200) {
