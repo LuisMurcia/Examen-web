@@ -1,5 +1,5 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE questions>
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE questions SYSTEM "preguntas.dtd">
 <questions>
     <question>
         <type>text</type>
