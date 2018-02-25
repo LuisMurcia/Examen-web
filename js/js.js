@@ -13,7 +13,7 @@ window.onload = function () {
 function gestionJson(Json) {
     var preguntas = JSON.parse(Json);
 
-    //Bucle para poner los títulos que tenemos en Json
+    //Bucle para poner los titulos que tenemos en Json
     for (i = 0; i < 10; i++) {
         document.getElementsByTagName("h3")[i].innerHTML = preguntas.question[i].title;
     }
@@ -45,14 +45,14 @@ function gestionJson(Json) {
     //Checkbox
     for (i = 6; i < 8; i++) {
         var respuestas = preguntas.question[i].option.length;
-        var checkbox = document.getElementsByTagName("div")[i - 3];
+        var checkbox = document.getElementsByTagName("div")[i ];
         for (j = 0; j < respuestas; j++) {
             var label = document.createElement("label");
             var input = document.createElement("input");
             var span = document.createElement("span");
             var br = document.createElement("br");
             checkbox.appendChild(label);
-            span.innerText = preguntas.question[i].option[j];
+            label.innerText = preguntas.question[i].option[j];
             label.appendChild(input);
             label.appendChild(span);
             label.className = "containerCheck";
@@ -66,7 +66,7 @@ function gestionJson(Json) {
     //Radio
     for (i = 8; i < 10; i++) {
         var respuestas = preguntas.question[i].option.length;
-        var radio = document.getElementsByTagName("div")[i - 3];
+        var radio = document.getElementsByTagName("div")[i ];
         var oneOption;
         if (i == 8) {
             oneOption = "9";
@@ -79,7 +79,7 @@ function gestionJson(Json) {
             var span = document.createElement("span");
             var br = document.createElement("br");
             radio.appendChild(label);
-            span.innerText = preguntas.question[i].option[j];
+            label.innerText = preguntas.question[i].option[j];
             label.appendChild(input);
             label.appendChild(span);
             label.className = "containerRad";
