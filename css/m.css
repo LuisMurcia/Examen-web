@@ -66,6 +66,9 @@ a:hover{
     color: white;
     font-family: sans-serif;
 }
+#cuestionario h3{
+    font-size: 20px;
+}
 #corregir{
     border-style: outset;
     border-color: #4d88ff;
@@ -76,4 +79,109 @@ a:hover{
 }
 #corregir:hover{
     background-color: #1a66ff; 
+}
+#pregunta1y2 input[type=text]{
+    background-color: rgba(11, 2, 111, 0.8);
+    border: none;
+    color: white;
+    font-size: 19.5px;
+    height: 21px;
+    padding: 5px;
+    width: 250px; 
+}
+#pregunta3y4 select {
+    background-color: rgba(11, 2, 111, 0.8);
+    border: none;
+    color: white;
+    font-size: 18.5px;
+    height: 30px;
+    padding: 5px;
+    width: 250px;
+}
+#pregunta5y6 select {
+    background-color: rgba(11, 2, 111, 0.8);
+    border: none;
+    color: white;
+    font-size: 19.5px;
+    height: 130px;
+    padding: 5px;
+    width: 250px;
+    overflow-y: hidden;
+}
+
+
+.containerCheck {
+    display: block;
+    font-size: 19.5px;
+}
+.containerCheck input {
+    position: absolute;
+}
+.checkmarkCheck{
+    position: absolute;
+    height: 25px;
+    width: 25px;
+    background-color: rgb(11, 2, 111);
+}
+.containerCheck:hover input~.checkmarkCheck {
+    background-color: blue;
+}
+.containerCheck input:checked~.checkmarkCheck {
+    background-color: blue;
+}
+.checkmarkCheck:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+.containerCheck input:checked~.checkmarkCheck:after {
+    display: block;
+}
+.containerCheck .checkmarkCheck:after {
+    left: 9px;
+    top: 5px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    transform: rotate(45deg);
+}
+
+
+
+.containerRad {
+    display: block;
+    font-size: 19.5px;
+}
+.containerRad input {
+    position: absolute;
+}
+.checkmarkRad {
+    position: absolute;
+    height: 25px;
+    width: 25px;
+    background-color: rgb(11, 2, 111);
+    border-radius: 50%;
+}
+.containerRad:hover input~.checkmarkRad {
+    background-color: blue;
+}
+.containerRad input:checked~.checkmarkRad {
+    background-color: blue;
+}
+.checkmarkRad:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+.containerRad input:checked~.checkmarkRad:after {
+    display: block;
+}
+.containerRad .checkmarkRad:after {
+    top: 9px;
+    left: 8px;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: white;
 }
