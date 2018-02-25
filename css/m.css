@@ -112,13 +112,20 @@ a:hover{
 
 .containerCheck {
     display: block;
+    position: relative;
+    padding-left: 30px;
+    margin-bottom: 10px;
     font-size: 19.5px;
 }
 .containerCheck input {
     position: absolute;
+    opacity: 0;
+    cursor: pointer;
 }
 .checkmarkCheck{
     position: absolute;
+    top: 0;
+    left: 0;
     height: 25px;
     width: 25px;
     background-color: rgb(11, 2, 111);
@@ -151,13 +158,20 @@ a:hover{
 
 .containerRad {
     display: block;
+    position: relative;
+    padding-left: 30px;
+    margin-bottom: 10px;
     font-size: 19.5px;
 }
 .containerRad input {
     position: absolute;
+    opacity: 0;
+    cursor: pointer;
 }
 .checkmarkRad {
     position: absolute;
+    top: 0;
+    left: 0;    
     height: 25px;
     width: 25px;
     background-color: rgb(11, 2, 111);
