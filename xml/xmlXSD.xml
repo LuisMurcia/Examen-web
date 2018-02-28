@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<questions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="preguntas.xsd">
+    <question>
+        <type>text</type>
+        <title>1. - La fuerza física que la tierra ejerce sobre los cuerpos hacia su centro se conoce como:</title>
+        <answer>Gravedad</answer>
+    </question>
+    <question>
+        <type>text</type>
+        <title>2. - El proceso mediante el cual se generan moléculas orgánicas a partir de sustancias inorgánicas usando como fuente de energía el sol es:</title>
+        <answer>La fotosíntesis</answer>
+    </question>
+    <question>
+        <type>select</type>
+        <title>3. - La velocidad a la que viaja la luz en el vacío es de</title>
+        <option>30 000 km/h</option>
+        <option>300 000 m/s</option> 
+        <option>300 000 km/s</option>
+        <answer>2</answer>
+    </question>
+    <question>
+        <type>select</type>
+        <title>4. - El proceso por el que una célula se divide para formar dos células hijas se llama:</title>
+        <option>Segregación</option>
+        <option>Mitosis</option>
+        <option>Meiosis</option>
+        <answer>1</answer>
+    </question>
+    <question>
+        <type>multiple</type>
+        <title>5. - Un miligramo de agua son:</title>
+        <option>0,001 gramos</option>
+        <option>0,001 litros</option> 
+        <option>100 miligramos de oxígeno</option> 
+        <option>1000 microgramos</option>
+        <answer>0</answer>
+        <answer>4</answer>
+    </question>
+    <question>
+        <type>multiple</type>
+        <title>6. - ¿Cúales de los siguientes seres vivos son mamíferos?</title>
+        <option>Salamandra</option>
+        <option>Humano</option> 
+        <option>Ballena</option> 
+        <option>Tiburón</option>
+        <answer>1</answer>
+        <answer>2</answer>
+    </question>
+    <question>
+        <type>checkbox</type>
+        <title>7. - Seleccione las capas que pertenezcan a la Atmósfera.</title>
+        <option>Litosfera</option>
+        <option>Exosfera</option>
+        <option>Troposfera</option>
+        <answer>1</answer>
+        <answer>2</answer>
+    </question>
+    <question>
+        <type>checkbox</type>
+        <title>8. - ¿Cúales de las siguientes partes del cuerpo son huesos?</title>
+        <option>Esternocleidomastoideo</option>
+        <option>Fémur</option>
+        <option>Radio</option>
+        <option>Trapecio</option>
+        <answer>1</answer>
+        <answer>2</answer>
+    </question>
+    <question>
+        <type>radio</type>
+        <title>9. - ¿Cúal es el resultado de la raíz cuadrada de -1?</title>
+        <option>+/- 1</option>
+        <option>0</option>
+        <option>Unidad imaginaria, denotada como "i"</option>
+        <answer>2</answer>
+    </question>
+    <question>
+        <type>radio</type>
+        <title>10. - ¿En qué año se descubrió América?</title>
+        <option>1812</option>
+        <option>1789</option>
+        <option>1492</option>
+        <answer>2</answer>
+    </question>
+</questions>
