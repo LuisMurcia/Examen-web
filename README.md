@@ -13,6 +13,18 @@ PRESENTACIÓN Y LECTURA:
 - Corrección de las preguntas implementada con js.
 - Disponible la vista previa de la página una vez la compartas en Facebook.
 
+RESPUESTAS CORRECTAS:
+- Gravedad
+- La fotosíntesis
+- 300 000 km/s
+- Mitosis
+- 0,001 gramos && 1000 microgramos
+- Humano && Ballena
+- Exosfera && Troposfera
+- Fémur && Radio
+- Unidad imaginaria, denotada como "i"
+- 1492
+
 VERSIÓN MINIMIFICADA:
 - https://github.com/LuisMurcia/Examen-web/tree/VersionMinimificada
 

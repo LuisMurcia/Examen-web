@@ -238,7 +238,7 @@ function corregir() {
     }
 
     //Corregir Checkbox
-    for (i = 6; i < 8; i++) {
+    /*for (i = 6; i < 8; i++) {
         var cierta = [];
         var corregirCheckbox;
         if (i == 6) {
@@ -258,7 +258,7 @@ function corregir() {
                 }
             }
         }
-    }
+    }*/
 
     //Corregir Radio
     for (i = 8; i < 10; i++) {
@@ -272,8 +272,6 @@ function corregir() {
             nota++;
         }
     }
-
-    //Corregir 
 }
 
 //Nota final
