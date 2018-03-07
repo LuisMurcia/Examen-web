@@ -19,12 +19,10 @@ window.onload = function () {
 
     cuestElement = document.getElementById("cuestionario");
     document.getElementById("corregirTecla").onclick = function () {
-        corregir();
-        notaFinal();
-        /*if (comprobar()) {
-         corregir();
-         notaFinal();
-         }*/
+        if (comprobar()) {
+            corregir();
+            notaFinal();
+        }
     };
 }
 
@@ -129,12 +127,12 @@ function comprobar() {
 
     //Comprobar Text
     for (i = 0; i < 2; i++) {
-     if (cuestElement.elements[i].value == "") {
-     cuestElement.elements[i].focus();
-     alert("Debe responder la pregunta " + (i + 1));
-     return false;
-     }
-     }
+        if (cuestElement.elements[i].value == "") {
+            cuestElement.elements[i].focus();
+            alert("Debe responder la pregunta " + (i + 1));
+            return false;
+        }
+    }
 
     //Comprobar Select
     for (i = 2; i < 4; i++) {
@@ -204,40 +202,63 @@ function comprobar() {
 function corregir() {
 
     //Corregir Text
-    /*for (i = 0; i < 2; i++) {
-     var corregirText = cuestElement.elements[i].value;
-     if (corregirText==respuestaText[i]) {
-     
-     nota++;
-     }       
-     }
-     
-     //Corregir Select
-     for (i = 2; i < 4; i++) {
-     var corregirSelect = cuestElement.elements[i];
-     if ((corregirSelect.selectedIndex - 1) == respuestaSelect[i]) {
-     nota++;
-     }
-     }
-     
-     //Corregir Multiple
-     for (i = 4; i < 6; i++) {
-     var corregirMultiple = cuestElement.elements[i];
-     var cierta = [];
-     for (j = 1; j < (corregirMultiple.length); j++) {
-     var opciones = corregirMultiple.options[j];
-     if (opciones.selected == true) {
-     cierta[j] = false;
-     for (k = 0; k < respuestasMultiple[i].length; k++) {
-     if ((j) == respuestasMultiple[i][k])
-     cierta[j] = true;
-     }
-     if (cierta[j] == true) {
-     nota = nota + 0.5;
-     }
-     }
-     }
-     }*/
+    for (i = 0; i < 2; i++) {
+        var corregirText = cuestElement.elements[i].value;
+        if (corregirText == respuestaText[i]) {
+
+            nota++;
+        }
+    }
+
+    //Corregir Select
+    for (i = 2; i < 4; i++) {
+        var corregirSelect = cuestElement.elements[i];
+        if ((corregirSelect.selectedIndex - 1) == respuestaSelect[i]) {
+            nota++;
+        }
+    }
+
+    //Corregir Multiple
+    for (i = 4; i < 6; i++) {
+        var corregirMultiple = cuestElement.elements[i];
+        var cierta = [];
+        for (j = 1; j < (corregirMultiple.length); j++) {
+            var opciones = corregirMultiple.options[j];
+            if (opciones.selected == true) {
+                cierta[j] = false;
+                for (k = 0; k < respuestasMultiple[i].length; k++) {
+                    if ((j) == respuestasMultiple[i][k])
+                        cierta[j] = true;
+                }
+                if (cierta[j] == true) {
+                    nota = nota + 0.5;
+                }
+            }
+        }
+    }
+
+    //Corregir Checkbox
+    for (i = 6; i < 8; i++) {
+        var cierta = [];
+        var corregirCheckbox;
+        if (i == 6) {
+            corregirCheckbox = cuestElement.opcion7;
+        } else {
+            corregirCheckbox = cuestElement.opcion8;
+        }
+        for (j = 0; j < corregirCheckbox.length; j++) {
+            if (corregirCheckbox[j].checked) {
+                cierta[j] = false;
+                for (z = 0; z < respuestasCheckbox[i].length; z++) {
+                    if ((j) == respuestasCheckbox[i][z])
+                        cierta[j] = true;
+                }
+                if (cierta[j] == true) {
+                    nota = nota + 0.5;
+                }
+            }
+        }
+    }
 
     //Corregir Radio
     for (i = 8; i < 10; i++) {
@@ -251,6 +272,8 @@ function corregir() {
             nota++;
         }
     }
+
+    //Corregir 
 }
 
 //Nota final
