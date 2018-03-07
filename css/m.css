@@ -69,7 +69,7 @@ a:hover{
 #cuestionario h3{
     font-size: 20px;
 }
-#corregir{
+#corregirTecla{
     border-style: outset;
     border-color: #4d88ff;
     background-color: #9999ff;
@@ -77,8 +77,9 @@ a:hover{
     line-height: 40px;
     font-family: sans-serif;
 }
-#corregir:hover{
-    background-color: #1a66ff; 
+#corregirTecla:hover{
+    background-color: #1a66ff;
+    color: white;
 }
 #pregunta1y2 input[type=text]{
     background-color: rgba(11, 2, 111, 0.8);
