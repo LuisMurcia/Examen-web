@@ -4,7 +4,7 @@ var respuestasMultiple = [];
 var respuestaText = [];
 var respuestaRadio = [];
 var respuestasCheckbox = [];
-var nota = 10;
+var nota = 0;
 
 window.onload = function () {
     var url = "https://rawgit.com/LuisMurcia/Examen-web/master/json/json.json";
@@ -19,10 +19,12 @@ window.onload = function () {
 
     cuestElement = document.getElementById("cuestionario");
     document.getElementById("corregirTecla").onclick = function () {
-        if (comprobar()) {
-            corregir();
-            notaFinal();
-        }
+        corregir();
+        notaFinal();
+        /*if (comprobar()) {
+         corregir();
+         notaFinal();
+         }*/
     };
 }
 
@@ -33,11 +35,16 @@ function gestionJson(Json) {
     for (i = 0; i < 10; i++) {
         document.getElementsByTagName("h3")[i].innerHTML = preguntas.question[i].title;
     }
+    //Text
+    for (i = 0; i < 2; i++) {
+        respuestaText[i] = preguntas.question[i].answer;
+    }
 
     //Select
     for (i = 2; i < 4; i++) {
         var respuestas = preguntas.question[i].option.length;
         var select = document.getElementsByTagName("select")[i - 2];
+        respuestaSelect[i] = preguntas.question[i].answer;
         for (j = 0; j < respuestas; j++) {
             var respuesta = document.createElement("option");
             respuesta.text = preguntas.question[i].option[j];
@@ -50,11 +57,13 @@ function gestionJson(Json) {
     for (i = 4; i < 6; i++) {
         var respuestas = preguntas.question[i].option.length;
         var multiple = document.getElementsByTagName("select")[i - 2];
+        respuestasMultiple[i] = [];
         for (j = 0; j < respuestas; j++) {
             var respuesta = document.createElement("option");
             respuesta.text = preguntas.question[i].option[j];
             respuesta.value = j + 1;
             multiple.options.add(respuesta);
+            respuestasMultiple[i][j] = preguntas.question[i].answer[j];
         }
     }
 
@@ -90,6 +99,7 @@ function gestionJson(Json) {
     for (i = 8; i < 10; i++) {
         var respuestas = preguntas.question[i].option.length;
         var radio = document.getElementsByTagName("div")[i + 4];
+        respuestaRadio[i] = preguntas.question[i].answer;
         var oneOption;
         if (i == 8) {
             oneOption = "opcion9";
@@ -119,12 +129,12 @@ function comprobar() {
 
     //Comprobar Text
     for (i = 0; i < 2; i++) {
-        if (cuestElement.elements[i].value == "") {
-            cuestElement.elements[i].focus();
-            alert("Debe responder la pregunta " + (i + 1));
-            return false;
-        }
-    }
+     if (cuestElement.elements[i].value == "") {
+     cuestElement.elements[i].focus();
+     alert("Debe responder la pregunta " + (i + 1));
+     return false;
+     }
+     }
 
     //Comprobar Select
     for (i = 2; i < 4; i++) {
@@ -194,25 +204,42 @@ function comprobar() {
 function corregir() {
 
     //Corregir Text
-    for (i = 0; i < 2; i++) {
-        var corregirText = cuestElement.elements[i].value;
-        if (corregirText.toLowerCase() == respuestaText[i]) {
-            nota = nota;
-        } else {
-            nota = nota - 1;
-        }
-    }
+    /*for (i = 0; i < 2; i++) {
+     var corregirText = cuestElement.elements[i].value;
+     if (corregirText==respuestaText[i]) {
+     
+     nota++;
+     }       
+     }
+     
+     //Corregir Select
+     for (i = 2; i < 4; i++) {
+     var corregirSelect = cuestElement.elements[i];
+     if ((corregirSelect.selectedIndex - 1) == respuestaSelect[i]) {
+     nota++;
+     }
+     }
+     
+     //Corregir Multiple
+     for (i = 4; i < 6; i++) {
+     var corregirMultiple = cuestElement.elements[i];
+     var cierta = [];
+     for (j = 1; j < (corregirMultiple.length); j++) {
+     var opciones = corregirMultiple.options[j];
+     if (opciones.selected == true) {
+     cierta[j] = false;
+     for (k = 0; k < respuestasMultiple[i].length; k++) {
+     if ((j) == respuestasMultiple[i][k])
+     cierta[j] = true;
+     }
+     if (cierta[j] == true) {
+     nota = nota + 0.5;
+     }
+     }
+     }
+     }*/
 
-    //Corregir Select
-    for (i = 2; i < 4; i++) {
-        var corregirSelect = cuestElement.elements[i];
-        if ((corregirSelect.selectedIndex - 1) == respuestaSelect[i]) {
-            nota = nota;
-        } else {
-            nota = nota - 1;
-        }
-    }
-
+    //Corregir Radio
     for (i = 8; i < 10; i++) {
         var optionRadio;
         if (i == 8) {
@@ -221,9 +248,7 @@ function corregir() {
             optionRadio = cuestElement.opcion10;
         }
         if ((optionRadio.value - 1) == respuestaRadio[i]) {
-            nota = nota;
-        } else {
-            nota = nota - 1;
+            nota++;
         }
     }
 }
