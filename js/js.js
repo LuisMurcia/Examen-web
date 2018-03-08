@@ -69,6 +69,7 @@ function gestionJson(Json) {
     for (i = 6; i < 8; i++) {
         var respuestas = preguntas.question[i].option.length;
         var checkbox = document.getElementsByTagName("div")[i + 4];
+        respuestasCheckbox[i] = [];
         var agregaName;
         if (i == 6) {
             agregaName = "opcion7";
@@ -249,8 +250,8 @@ function corregir() {
         for (j = 0; j < corregirCheckbox.length; j++) {
             if (corregirCheckbox[j].checked) {
                 cierta[j] = false;
-                for (z = 0; z < respuestasCheckbox[i].length; z++) {
-                    if ((j) == respuestasCheckbox[i][z])
+                for (k = 0; k < respuestasCheckbox[i].length; k++) {
+                    if ((j) == respuestasCheckbox[i][k])
                         cierta[j] = true;
                 }
                 if (cierta[j] == true) {
