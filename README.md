@@ -32,5 +32,5 @@
 - Todos los archivos HTML, CSS y XML (con DTD y XSD) han sido validados.
 
 **PROBAR:**
-- Enlace a la página: https://rawgit.com/LuisMurcia/Examen-web/master/P%C3%A1ginaExamen.html //Rawgit está deshabilitado.
+- Enlace a la página: https://rawgit.com/LuisMurcia/Examen-web/master/P%C3%A1ginaExamen.html //Rawgit está deshabilitado
 - Enlace archivo Json: https://rawgit.com/LuisMurcia/Examen-web/master/json/json.json
